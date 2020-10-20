@@ -15,7 +15,6 @@
       "email": "marien@eosnewmedia.de"
     }
   ],
-  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "Eos\\Bundle\\ArangoDBConnector\\": "src"
