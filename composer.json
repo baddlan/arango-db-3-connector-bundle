@@ -4,9 +4,9 @@
   "type": "symfony-bundle",
   "require": {
     "php": ">=7.2",
-    "eos/arango-db-3-connector": "^1.0",
-    "symfony/framework-bundle": "^4.0",
-    "symfony/console": "^4.0"
+    "eos/arango-db-3-connector": "^1.0@dev",
+    "symfony/framework-bundle": "5.1.*",
+    "symfony/console": "5.1.*"
   },
   "license": "MIT",
   "authors": [
