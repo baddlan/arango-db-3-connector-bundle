@@ -17,8 +17,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder();
-        $root = $treeBuilder->root('eos_arango_db_connector')->children();
+        $treeBuilder = new TreeBuilder('eos_arango_db_connector');
+        $root = $treeBuilder->getRootNode()->children();
 
         $root->arrayNode('servers')->isRequired()->requiresAtLeastOneElement()->scalarPrototype();
         $root->scalarNode('user')->isRequired()->cannotBeEmpty();
