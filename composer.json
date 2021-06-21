@@ -3,10 +3,10 @@
   "description": "Symfony integration for eos/arango-db-3-connector",
   "type": "symfony-bundle",
   "require": {
-    "php": ">=7.2",
+    "php": "^7.1 || ^8.0",
     "eos/arango-db-3-connector": "dev-develop",
-    "symfony/framework-bundle": "5.1.*",
-    "symfony/console": "5.1.*"
+    "symfony/framework-bundle": "^4.0 || ^5.0",
+    "symfony/console": "^4.0 || ^5.0"
   },
   "repositories": [{
     "type": "vcs",
